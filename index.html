@@ -9,8 +9,25 @@
     <title>My Project</title>
 </head>
 <body>
-<h1>A Song For Europe</h1>
-<h2>There are still <span id="activeCount">X</span> / <span id="totalCount">X</span>+ possible songs</h2>
+<h1 class="title">A Song For Europe</h1>
+<h2 class="subtitle">There are still <span id="activeCount">X</span> / <span id="totalCount">X</span>+ possible songs which could win Eurovision 2021</h2>
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-1 col-2">Show:</div>
+        <button class="btn btn-sm btn-success col-md-2 col-4 m-2" id="eliminated">Eliminated</button>
+        <button class="btn btn-sm btn-success col-md-2 col-4 m-2" id="released">Released</button>
+    </div>
+</div>
+<div class="container mb-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-3 col-md-1">Sort By:</div>
+        <div class="btn-group col-9 col-md-3" role="group" aria-label="Basic example">
+            <button type="button" id="songButton" class="btn btn-sm btn-primary active">Song</button>
+            <button type="button" id="artistButton" class="btn btn-sm btn-primary">Artist</button>
+            <button type="button" id="countryButton" class="btn btn-sm btn-primary">Country</button>
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="column m-0 col-lg-4 col-md-6 col-12"></div>

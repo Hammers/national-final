@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Muli', sans-serif;
     font-weight: bold;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #4981f5 !important;
+    background-color: #333 !important;
     color: #fff !important;
 }
 
-.container {
-    display: flex;
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
 }
 
 ul {
@@ -34,6 +38,7 @@ ul {
 }
 
 .column {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
